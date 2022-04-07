@@ -20,7 +20,7 @@ function Intro () {
                         </div>
                     </div>
                     <div className="i-description">
-                    Felipe is a full stack developer with experience in graphics and coding. He recently received a certificate from the UT Austin Coding Bootcamp for completing the course. Felipe gradutated from Texas State University with a Bachelor's of Science, majoring in Advertising and minoring in Art & Design. He finds joy in all things but not limited to cutting-edge design, cooking, technology, street tacos, craft cocktails, his maltipoo Lilo, and all things futuristic.
+                    I am a full stack developer with experience in graphics and coding. He recently received a certificate from the UT Austin Coding Bootcamp for completing the course. Felipe gradutated from Texas State University with a Bachelor's of Science, majoring in Advertising and minoring in Art & Design. He finds joy in all things but not limited to cutting-edge design, cooking, technology, street tacos, craft cocktails, his maltipoo Lilo, and all things futuristic.
                 </div>
                 <div className="icon-wrapper">
                 <a className='i-icon' href="https://www.linkedin.com/in/felipe-mendoza-zintzun-40b28a232/" target="_blank"><FaLinkedin size='50'/></a>
