@@ -9,7 +9,7 @@ function Projects ({img,link}) {
                 <div className="projects-circle"></div>
                 <div className="projects-circle"></div>
         </div>
-        <a href={link} target="_blank" rel="noreferrence">
+        <a href={link} target="_blank" rel="noreferrer">
             <img src={img} alt="" className="projects-img"/>
         </a>
     </div>
