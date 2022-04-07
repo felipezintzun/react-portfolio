@@ -14,7 +14,12 @@
 
 .i-right {
     flex: 1;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
+    height: 100%;
 }
 
 .i-left-wrapper {
@@ -68,9 +73,37 @@
     align-items: centers;
 }
 
+.i-description {
+    padding: 10px 0;
+}
+
+.i-card.bg {
+    position: absolute;
+    top: 140px;
+    right: 90px;
+    background-color: #02353c;
+}
+
+.i-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
 .i-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
 }
+
+.icon-wrapper {
+   padding: 25px 0;
+}
+
+.i-icon {
+    text-decoration: none;
+    color: #2eaf7d;
+}
+
