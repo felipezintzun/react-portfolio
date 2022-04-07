@@ -1,0 +1,50 @@
+.contact {
+    height: 100vh;
+    position: relative;
+}
+
+.contact-bg {
+    width: 20px;
+    height: 100%;
+    background-color: #02353c;
+    position: absolute;
+}
+
+.contact-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.cwrapper-left {
+    flex: 1;
+}
+
+.cwrapper-right {
+    flex: 1;
+}
+
+.contact-title {
+    font-size: 60px;
+    width: 80%;
+
+}
+
+.contact-info {
+    
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+}
+
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
