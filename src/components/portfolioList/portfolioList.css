@@ -5,3 +5,23 @@
     align-items: center;
     text-align: center;
 }
+
+.pl-text {
+    width: 65%;
+}
+
+.pl-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.pl-description {
+    margin: 20px 0px;
+}
+
+.pl-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

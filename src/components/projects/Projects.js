@@ -1,11 +1,18 @@
 import React from "react";
 import "./projects.css";
 
-function Projects () {
+function Projects ({img,link}) {
     return (
-        <div>
-        card
+        <div className="projects">
+            <div className="projects-browser">
+                <div className="projects-circle"></div>
+                <div className="projects-circle"></div>
+                <div className="projects-circle"></div>
         </div>
+        <a href={link} target="_blank" rel="noreferrence">
+            <img src={img} alt="" className="projects-img"/>
+        </a>
+    </div>
     )
 }
 

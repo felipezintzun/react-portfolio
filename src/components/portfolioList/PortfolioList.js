@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolioList.css";
 import Projects from "../projects/Projects.js";
+import {projects} from "../../data.js"
 
 function PortfolioList () {
     return (
@@ -12,13 +13,10 @@ function PortfolioList () {
                 </p>
             </div>
             <div className="pl-list">
-                <Projects/>
-                <Projects/>
-                <Projects/>
-                <Projects/>
-                <Projects/>
-                <Projects/>
-                <Projects/>
+                {projects.map((item) => (
+                    <Projects key={item.id} img={item.img} link={item.link}/>
+                ))}
+                    
             </div>
         </div>
     )
