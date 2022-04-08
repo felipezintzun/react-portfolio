@@ -81,7 +81,7 @@
     position: absolute;
     top: 140px;
     right: 90px;
-    background-color: #02353c;
+    background-color: #d3d3d3;
 }
 
 .i-card {
@@ -106,4 +106,10 @@
     text-decoration: none;
     color: #2eaf7d;
 }
+
+.i-icon:hover {
+    text-decoration: none;
+    color: #3fd0c9;
+}
+
 
