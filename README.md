@@ -1,3 +1,17 @@
+# React Portfolio
+
+## 20. React Challenge: React Portfolio
+Portfolio Link: [https://felipezintzun.github.io/react-portfolio/]
+
+## Table of Contents
+
+- [Description](#description)
+- [Usage Information](#usage-information)
+- [Licenses](#licenses)
+- [Contact Me](#contact-me)
+
+## Description
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +82,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Usage Information
+
+Portfolio Link: [https://felipezintzun.github.io/react-portfolio/]
+
+## Licenses
+
+![MIT License](https://img.shields.io/badge/license-MIT-important)<br>
+Permission to use this application is granted under the MIT license.
+For more information: [MIT License Information](https://opensource.org/licenses/MIT)
+
+## Contact Me
+- Github: [https://github.com/felipezintzun/react-portfolio]<br>
+- LinkedIn: [https://www.linkedin.com/in/felipe-mendoza-zintzun-40b28a232/]<br>
+- Contact Me: [felipezintzun@gmail.com]
