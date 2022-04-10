@@ -1,7 +1,7 @@
 # React Portfolio
 
 ## 20. React Challenge: React Portfolio
-Portfolio Link: [https://felipezintzun.github.io/react-portfolio/]
+Portfolio Link: [https://felipezintzun.github.io/]
 
 ## Table of Contents
 
@@ -94,6 +94,6 @@ Permission to use this application is granted under the MIT license.
 For more information: [MIT License Information](https://opensource.org/licenses/MIT)
 
 ## Contact Me
-- Github: [https://github.com/felipezintzun/react-portfolio]<br>
+- Github: [https://felipezintzun.github.io/]<br>
 - LinkedIn: [https://www.linkedin.com/in/felipe-mendoza-zintzun-40b28a232/]<br>
 - Contact Me: [felipezintzun@gmail.com]
