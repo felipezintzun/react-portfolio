@@ -20,9 +20,14 @@ function Intro () {
                             <div className="i-titles-item">Node.js</div>
                         </div>
                     </div>
+                    
                     <div className="i-description">
-                    I am a full stack developer with experience in graphics and coding. He recently received a certificate from the UT Austin Coding Bootcamp for completing the course. Felipe gradutated from Texas State University with a Bachelor's of Science, majoring in Advertising and minoring in Art & Design. He finds joy in all things but not limited to cutting-edge design, cooking, technology, street tacos, craft cocktails, his maltipoo Lilo, and all things futuristic.
-                </div>
+                    I am a full stack developer and graphic designer based in Austin, Texas.
+                    Texas State University Alum with a focus in Advertising, Art and Design,
+                    and a recent graduate of UT Austin Coding Bootcamp. When I’m not coding,
+                    you can find me cooking, weightlifting, or hanging out with my maltipoo Lilo.
+                    </div>
+
                 <div className="icon-wrapper">
 
                     <a className='i-icon' href="https://www.linkedin.com/in/felipe-mendoza-zintzun-40b28a232/" target="_blank" rel="noreferrer"><FaLinkedin size='50'/></a>
