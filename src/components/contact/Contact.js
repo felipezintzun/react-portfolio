@@ -35,7 +35,7 @@ const Contact = () => {
                         </div>
                     </div>
                     
-                <div className="cwrappper-right">
+                <div className="cwrapper-right">
                     <p className="contact-description">
                         Since you landed here you are probably looking for someone who can build your new website. Well done! You found the man for the job. I can handle projects from scratch. Yes, even your logo and branding identity. Let's make something!
                     </p>
@@ -44,7 +44,7 @@ const Contact = () => {
                     <input type="text" placeholder="Subject" name="user_subject"/>
                     <input type="text" placeholder="Email" name="user_email"/>
                     <textarea rows="5" placeholder="Message" name="message" />
-                    <button type="submit">Submit</button>
+                    <button className="submit-btn" type="submit">Submit</button>
                     {done && "Thank You!"}
                 </form>
                 </div>

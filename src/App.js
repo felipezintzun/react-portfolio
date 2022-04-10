@@ -4,18 +4,24 @@ import Navigation from './components/navigation/Navigation.js';
 import Intro from './components/intro/Intro.js';
 import PortfolioList from './components/portfolioList/PortfolioList.js';
 import Contact from './components/contact/Contact.js';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Footer from './components/footer/Footer.js';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+  
     <div>
-      <Navigation/>
-      <Intro/>
-      <PortfolioList/>
-      <Contact/>
+      <Navigation />
+
+      <Routes>
+      <Route path="/" element={<Intro />} />
+      <Route path="/Projects" element={<PortfolioList />} />
+      <Route path="/Contact" element={<Contact />} />
+      </Routes>
+
+      <Footer />
     </div>
-    </Router>
+   
   );
 }
 

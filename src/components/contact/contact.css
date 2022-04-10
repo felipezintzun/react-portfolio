@@ -20,10 +20,11 @@
 }
 
 .cwrapper-right {
+    /* background-color: black; */
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -79,7 +80,7 @@ textarea {
     padding-left: 10px;
 }
 
-button{
+.submit-btn{
     border: none;
     padding: 15px;
     color: white;
@@ -89,8 +90,6 @@ button{
     border-radius: 5px;
 }
 
-
-button:hover {
+.submit-btn:hover {
     background-color: #3fd0c9;
-    
 }

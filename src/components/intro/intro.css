@@ -1,6 +1,6 @@
 .i {
     display: flex;
-    height: 100vh;
+    height: 120vh;
     /* background-color: gray; */
 }
 
@@ -79,7 +79,7 @@
 
 .i-card.bg {
     position: absolute;
-    top: 140px;
+    top: 180px;
     right: 90px;
     background-color: #d3d3d3;
 }
@@ -99,12 +99,18 @@
 }
 
 .icon-wrapper {
-   padding: 25px 0;
+   row-gap: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   align-items: flex-start;
+   align-content: flex-start;
 }
 
 .i-icon {
     text-decoration: none;
     color: #2eaf7d;
+    padding-right: 15px;
 }
 
 .i-icon:hover {
@@ -112,4 +118,23 @@
     color: #3fd0c9;
 }
 
+.resume-btn {
+    margin-top: 3px;
+    border: none;
+    padding: 0 25px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #2eaf7d;
+    border-radius: 5px;
+    height: 44px;
+}
 
+.resume-btn:hover {
+    background-color: #3fd0c9;
+}
+ 
+.resume-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
