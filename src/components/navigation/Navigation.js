@@ -9,7 +9,7 @@ function Navigation () {
         <nav className="navigation">
 
             <div className="nav-logo">
-            <NavLink className="logo" to="/" >FZ</NavLink>
+            <NavLink className="logo" to="/react-portfolio" >FZ</NavLink>
             </div>
 
             <div className="nav-links">

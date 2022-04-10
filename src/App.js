@@ -13,10 +13,12 @@ function App() {
     <div>
       <Navigation />
 
-      <Routes>
-      <Route path="/" element={<Intro />} />
-      <Route path="/Projects" element={<PortfolioList />} />
-      <Route path="/Contact" element={<Contact />} />
+      <Routes basename="/react-portfolio">
+
+      <Route path="/react-portfolio" element={<Intro />} />
+      <Route path="/projects" element={<PortfolioList />} />
+      <Route path="/contact" element={<Contact />} />
+
       </Routes>
 
       <Footer />
