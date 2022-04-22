@@ -1,7 +1,7 @@
 export const projects = [
 {
     id: 1,
-    img: "https://github.com/felipezintzun/react-portfolio/blob/main/src/img/teksess.png?raw=true",
+    img: "https://github.com/felipezintzun/react-portfolio/blob/main/src/img/flower-power.png?raw=true",
     link: "https://github.com/felipezintzun/flower-power",
 },
 {
